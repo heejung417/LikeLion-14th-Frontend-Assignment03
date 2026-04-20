@@ -84,12 +84,10 @@ function isChecked(event) {
     });
   }
 
-  saveToDos();
+
 }
 
-function saveToDos() {
-  localStorage.setItem("todos", JSON.stringify(toDos));
-}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   todoInput.addEventListener("keypress", (e) => {
